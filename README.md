@@ -76,8 +76,8 @@ x → downsample → bottleneck → upsample → cat → DoubleConv → output
 
 ## Results
 
-- **U-Net Val IoU:** ~0.52
-- **Plain Encoder-Decoder Val IoU:** ~0.31
+- **U-Net Val IoU:** ~0.40
+- **Plain Encoder-Decoder Val IoU:** ~0.25
 - **Training:** 30 epochs, Adam optimizer, lr=1e-3, ReduceLROnPlateau
 - **Loss:** Combined CrossEntropy + Dice loss
 
